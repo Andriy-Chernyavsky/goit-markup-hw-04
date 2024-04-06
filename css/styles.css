@@ -58,12 +58,6 @@ ol {
 }
 
 .logo-part {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #2e2f42;
 }
 
@@ -100,11 +94,11 @@ ol {
   content: "";
   position: absolute;
   left: 0;
-  bottom: 0; /*якщо пишу -1 синя зона над Studio */
+  bottom: -1px;
   border-radius: 2px;
   width: 100%;
   height: 4px;
-  background: #404bbf;
+  background-color: #404bbf;
 }
 
 .contacts {
