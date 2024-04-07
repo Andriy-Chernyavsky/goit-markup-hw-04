@@ -403,6 +403,12 @@ ol {
   margin-bottom: 16px;
 }
 
+.footer-socialnet-list {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
 .footer-soc-link {
   width: 100%;
   height: 100%;
